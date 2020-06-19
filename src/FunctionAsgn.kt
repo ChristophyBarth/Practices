@@ -15,7 +15,7 @@ fun reverse (firstWord:String, secondWord:String){
 }
 
 //A function that returns the grater of three numbers
-fun grater (a:Double, b:Double, c:Double){
+fun greater (a:Double, b:Double, c:Double){
 
     when {
         a>b && a>c -> {print(a)}
@@ -28,7 +28,7 @@ fun grater (a:Double, b:Double, c:Double){
 fun main (){
     greeting()
     println("Input 3 numbers below(one after the other)")
-    grater(a = readLine()!!.toDouble(), b = readLine()!!.toDouble(), c = readLine()!!.toDouble())
+    greater(a = readLine()!!.toDouble(), b = readLine()!!.toDouble(), c = readLine()!!.toDouble())
     println("Input two words and I'll reverse them")
     reverse(firstWord = readLine()!!.toString(), secondWord = readLine()!!.toString())
 }
